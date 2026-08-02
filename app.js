@@ -9,6 +9,8 @@ function revisarLocal(){
         for (let i = 0; i < listaObjeto.length; i++) {
             listaGastos.push(listaObjeto[i])          
         }
+    } else {
+        console.log('No hay datos en localStorage')
     }
 }
 
